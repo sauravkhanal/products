@@ -35,9 +35,48 @@ body {
   border-radius: 1rem;
   font-family: monospace;
   padding: 2rem;
+  position: relative; 
+  /* parent must be set relative to have absolute chile #num */
 }
 
 .item h3 {
   margin: 1rem 0 0.5rem 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.index {
+  position: absolute;
+  top:0;
+  left: 0;
+  /* padding: 1rem; */
+  background-color: #cd0606;
+  color:white;
+  /* z-index: 0; */
+  font-size: 1rem;
+  /* padding: 1rem; */
+  /* margin: 1rem; */
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius:1rem ;
+  padding: .5rem;
+}
+
+.header {
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: capitalize;
+  font-size: 3rem;
+} 
+
+
+
+.item:hover {
+  .name {
+    letter-spacing: .05rem;
+    transition: 0.3s ease-in-out; 
+  }
+  .index {
+    background-color:rgb(255, 0, 0);
+    /* animation-duration: 1s; */
+    transition: 0.3s ease-in-out;
+  }
 }
