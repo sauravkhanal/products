@@ -1,0 +1,66 @@
+{
+  "statusCode": 200,
+  "message": "All watches Fetch Successfully.",
+  "data": [
+    {
+      "id": 1,
+      "name": "Titan Edge",
+      "description": "Ultra-slim elegance, stainless steel, sapphire crystal, minimalist design.",
+      "imageUrl": "https://staticimg.titan.co.in/Titan/Catalog/1778NL01_2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Titan Octane",
+      "description": "Bold chronograph, rugged design, stainless steel, precision timekeeping.",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jkBVrfuQL._AC_UY1000_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Titan Raga",
+      "description": "Feminine grace, Swarovski crystals, intricate dial, stainless steel, elegance.",
+      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/616ugc7Iv7L._AC_SR462,693_.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Titan Neo Workwear",
+      "description": "Casual sophistication, leather strap, date function, water-resistant.",
+      "imageUrl": "https://s3.ap-south-1.amazonaws.com/buybesto/titan-1805nm01.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Titan Juxt Pro",
+      "description": "Smart analog, Bluetooth connectivity, fitness tracking, touch screen.",
+      "imageUrl": "https://cdn.ndtv.com/tech/images/titan_juxt_pro_silver.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Titan Purple",
+      "description": "Contemporary chic, vibrant colors, leather strap, modern aesthetics.",
+      "imageUrl": "https://m.media-amazon.com/images/I/71SpF7-avFL._AC_UY1000_.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Titan HTSE",
+      "description": "High-tech elegance, kinetic movement, futuristic design, stainless steel.",
+      "imageUrl": "https://m.media-amazon.com/images/I/81q-0APlOOL._AC_UY1000_.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Titan Regalia",
+      "description": "Classic sophistication, gold accents, leather strap, timeless style.",
+      "imageUrl": "https://m.media-amazon.com/images/I/81aTv73EPzS._AC_UY1000_.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Titan Celestial",
+      "description": "Celestial-inspired, unique dial, rose gold accents, luxury appeal.",
+      "imageUrl": "https://assets.myntassets.com/fl_progressive/h_960,q_80,w_720/v1/assets/images/2203785/2017/11/21/11511265901701-Titan-Men-Watches-6431511265901586-1.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Titan Automatic",
+      "description": "Mechanical marvel, automatic movement, exhibition case back, classic style.",
+      "imageUrl": "https://staticimg.titan.co.in/Titan/Catalog/90110WM01_1.jpg?impolicy=pqmed&imwidth=640"
+    }
+  ]
+}
