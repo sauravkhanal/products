@@ -9,11 +9,30 @@ body {
   background-color: aliceblue;
 }
 
-.displayPic {
+.imageContainer {
+  width: 200px;
+  height: 200px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.imageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  /* text-align: center; */
+  /* max-width: 200px;
+  max-height: 200px; /*scale to 200px whichever is highest */
+  /* height: auto; */
+}
+/* .displayPic {
   max-width: 200px;
   max-height: 200px;
-  /* border: 1px solid rgba(0, 0, 0, 0.05); */
-}
+  
+  
+
+  border: 1px solid rgba(0, 0, 0, 0.05);
+} */
 
 .itemList {
   display: grid;
@@ -21,6 +40,7 @@ body {
   gap: 2rem;
   align-items: center;
   width: 70vw;
+  align-items: stretch;
 }
 
 @media screen and (min-width: 600px) {
@@ -36,6 +56,9 @@ body {
   font-family: monospace;
   padding: 2rem;
   position: relative;
+  /* transform-origin: center bottom; */
+  /* transform: translateZ(0) scale(1); */
+  transition: transform 0.5s; /* for slow transition on hover out
   /* parent must be set relative to have absolute chile #num */
 }
 
@@ -58,6 +81,7 @@ body {
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   padding: 0.5rem;
+  transition: transform 0.5s;
 }
 
 .header {
@@ -67,16 +91,18 @@ body {
   font-size: 3rem;
 }
 
-.index:hover {
+/* .index:hover {
   background-color: #cd0606;
-  transition: 0.3s ease-in-out;
-}
+  transition: 0.2s ease-in-out;
+} */
 
 .item:hover {
   /* translate: 5px -5px; */
   /* zoom: 1.1; */
   transform: scale(1.03);
-  transition: 0.5s ease-in-out;
+  /* transform: translate(-5px, -5px); */
+  /* transform: scale3d(1.03, 1.03, 1); */
+  transition: 0.3s;
   /* .name {
     letter-spacing: 0.06rem;
     transition: 0.3s ease-in-out;
@@ -85,17 +111,11 @@ body {
     zoom: 0.99;
     transition: 0.5s ease-in-out;
   } */
-  /* .index {
-    background-color:rgb(255, 0, 0);
-  } */
-  
-  
-  
-  
-}
-
-h3 :hover{
-  transform: translateX(100px)
+  .index {
+    background-color: rgb(133, 0, 0);
+    /* transition: transform 0.3s ; */
+  }
+  /* transform: translateY(-10px); */
 }
 
 body:hover {
