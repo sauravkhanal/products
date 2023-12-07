@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -14,19 +15,18 @@ body {
   /* border: 1px solid rgba(0, 0, 0, 0.05); */
 }
 
-
 .itemList {
   display: grid;
-  margin:5rem auto;
-  gap:2rem;
+  margin: 5rem auto;
+  gap: 2rem;
   align-items: center;
   width: 70vw;
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width: 600px) {
   .itemList {
-    grid-template-columns: repeat(3,1fr);
-  }  
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .item {
@@ -35,7 +35,7 @@ body {
   border-radius: 1rem;
   font-family: monospace;
   padding: 2rem;
-  position: relative; 
+  position: relative;
   /* parent must be set relative to have absolute chile #num */
 }
 
@@ -46,18 +46,18 @@ body {
 
 .index {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   /* padding: 1rem; */
-  background-color: #cd0606;
-  color:white;
+  background-color: #000000;
+  color: white;
   /* z-index: 0; */
   font-size: 1rem;
   /* padding: 1rem; */
   /* margin: 1rem; */
   border-top-left-radius: 1rem;
-  border-bottom-right-radius:1rem ;
-  padding: .5rem;
+  border-bottom-right-radius: 1rem;
+  padding: 0.5rem;
 }
 
 .header {
@@ -65,18 +65,33 @@ body {
   margin-top: 4rem;
   text-transform: capitalize;
   font-size: 3rem;
-} 
+}
 
-
+.index:hover {
+  background-color: #cd0606;
+  transition: 0.3s ease-in-out;
+}
 
 .item:hover {
   .name {
-    letter-spacing: .05rem;
-    transition: 0.3s ease-in-out; 
-  }
-  .index {
-    background-color:rgb(255, 0, 0);
-    /* animation-duration: 1s; */
+    letter-spacing: 0.06rem;
     transition: 0.3s ease-in-out;
   }
+  /* .displayPic {
+    zoom: 0.99;
+    transition: 0.5s ease-in-out;
+  } */
+  /* .index {
+    background-color:rgb(255, 0, 0);
+  } */
+  
+  
+  /* translate: 5px -5px;
+  transition: 0.3s ease-in-out; */
+  
+  
+}
+
+h3 :hover{
+  transform: translateX(100px)
 }

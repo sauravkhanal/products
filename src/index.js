@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 
+
+import './index.css';
 import ItemList from './itemList';
-import {response} from './data'
+
+
+import { apiEndpoint } from './config';
+import fetchJson from './fetchJson';
+
+
+const response = await fetchJson(apiEndpoint)
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-
-
-// const details = require('./data.json')
-const dataArray = response.data
-
-
-
-
 root.render(
-  <ItemList dataArray={dataArray}/>
+  <ItemList dataArray={response.data} />
 )
