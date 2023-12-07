@@ -1,3 +1,3 @@
-const apiEndpoint = "http://saurav.paudelrohan.com.np/Watches/GetAllWatches?password=pralu"
+const apiEndpoint = "https://saurav.paudelrohan.com.np/Watches/GetAllWatches?password=pralu"
 
 export { apiEndpoint }
