@@ -1,2 +1,0 @@
-*{box-sizing:border-box;margin:0;padding:0}body{background-color:#f6f6f6;font-family:system-ui}.watchList{grid-gap:2rem;display:grid;gap:2rem;margin:3rem auto;width:80vw}@media screen and (min-width:600px){.watchList{grid-template-columns:repeat(3,1fr)}}.watch{background-color:#fff;border-radius:5px;padding:2rem;text-align:center}.watch h3{margin-top:1rem}.watch img{border:1px solid #c9c9c9;max-height:200px;max-width:200px}.author{color:#777}
-/*# sourceMappingURL=main.da3b4582.css.map*/
