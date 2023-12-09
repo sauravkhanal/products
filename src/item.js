@@ -5,7 +5,7 @@ const Item = ({ imageUrl, name, description, index }) => {
             <ImageContainer imageUrl={imageUrl} name={name}></ImageContainer>
             <h3 className='name'>{name}</h3>
             <p className='description'>{description}</p>
-            <p className="index">#{index + 1}</p>
+            <p className="index">#{index}</p>
         </article>
     )
 }
