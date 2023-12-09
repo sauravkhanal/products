@@ -10,7 +10,7 @@ const ItemList = ({ dataArray }) => {
 
         {
           dataArray.map((item, index) => {
-            return <Item {...item} key={item.id} index={index} />
+            return <Item {...item} key={item.id} index={item.id} />
           })
         }
       </section>

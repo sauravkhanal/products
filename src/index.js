@@ -16,5 +16,7 @@ const response = await fetchJson(apiEndpoint)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <ItemList dataArray={response.data} />
+  <React.StrictMode>
+    <ItemList dataArray={response.data} />
+  </React.StrictMode>
 )
